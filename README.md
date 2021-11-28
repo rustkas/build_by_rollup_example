@@ -5,7 +5,7 @@
 
 ## Создание необходимых папок и файлов одной командой:
 
-`npm init -y && npm install react react-dom && mkdir src && mkdir src && mkdir public && touch ./public/index.html && touch ./src/index.jsx && touch ./src/App.jsx && touch rollup.config.js && npm i --save-dev rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs @rollup/plugin-babel babel-cli @babel/core @babel/preset-env @babel/plugin-transform-react-jsx @babel/preset-react @rollup/plugin-replace rollup-plugin-uglify process && touch babel.config.json`
+`npm init -y && mkdir src && mkdir public && touch ./public/index.html && touch ./src/index.jsx && touch ./src/App.jsx && touch rollup.config.js && touch babel.config.json && npm install react react-dom && npm i --save-dev rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs @rollup/plugin-babel babel-cli @babel/core @babel/preset-env @babel/plugin-transform-react-jsx @babel/preset-react @rollup/plugin-replace rollup-plugin-uglify process`
 
 Плагины rollup-plugin-node-resolve, rollup-plugin-commonjs, rollup-plugin-babel, babel считаются устаревшим. Поэтому рекомендуется использовать @rollup/plugin-node-resolve, @rollup/plugin-commonjs, @rollup/plugin-babel, babel-cli.
 
